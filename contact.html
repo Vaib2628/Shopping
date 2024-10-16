@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/16963a8fbf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div id="menu">
+            <div class="title">
+                <img src="/images/foodie hunter.png" alt="">
+            </div>
+            <div class="menu-item">
+                <a href="#">About</a>
+                <a href="#services">Services</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Wishlists</a>
+                <a href="#" id="cart">Cart</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+        
+        <div class="container-contact">
+        
+            <div class="menu">
+    
+            
+            <h1>Fill the form.    <i class="fa-solid fa-circle-left" id="close"></i><br>It's easy.</h1>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Write your message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+    
+        </div>
+        </div>
+    </div>
+
+<script>
+    document.getElementById('close').addEventListener('click',()=>{
+        window.location.href = "./index.html";
+    })
+</script>
+</body>
+</html>
+
+
+</html>
